@@ -1,32 +1,47 @@
-#Bank Data Warehouse (bank_dwh)
-This project models and develops a data warehouse for a banking system using a Star Schema approach. It integrates transactional data from the source bank database into a structured analytical model (bank_dwh) to support business intelligence and reporting.
+# 📊 Bank Data Warehouse (`bank_dwh`)
 
-Project Objectives
-Design a Dimensional Model:
-Build a star schema for the bank_dwh data warehouse, including a central fact table and related dimension tables.
+This project models and develops a data warehouse for a banking system using a **Star Schema**. It integrates transactional data from the source `bank` database into a structured analytical model (`bank_dwh`) to support data analysis and business intelligence.
 
-Maintain Data Integrity:
-Implement a robust SQL-based method to check and enforce referential integrity between fact and dimension tables.
+---
 
-Historical Tracking:
-Add a Date Dimension to the model to facilitate historical analysis and support time-based queries.
+## 🎯 Project Objectives
 
-ETL Process with SSIS:
-Design and implement an SSIS (SQL Server Integration Services) project to extract data from the source bank transactional system and load it into the bank_dwh warehouse.
+### 1. Dimensional Modeling
+- Design a **star schema** for the `bank_dwh` data warehouse.
+- Include a central **fact table** and supporting **dimension tables** for key banking metrics.
 
-Multidimensional Cube with SSAS:
-Develop an SSAS (SQL Server Analysis Services) project in multidimensional mode to create an analytical cube. Key deliverables include:
+### 2. Data Integrity Enforcement
+- Develop **SQL-based methods** to check and maintain **referential integrity** between the fact table and its dimensions.
 
-Measures and KPIs
-Dimension hierarchies
-Cube browsing capabilities
+### 3. Time-based Analysis
+- Introduce a **Date Dimension** to support **historical tracking** and time-series analysis.
 
-Deliverables
-SQL scripts for data warehouse schema creation and integrity checks.
-SSIS package(s) for ETL implementation.
-SSAS cube project for multidimensional analysis.
-Date Dimension table generation script.
-DWH Design Diagram Screenshot included in the repository.
-Screenshot
-A screenshot of the data warehouse schema design is provided to visualize the star schema and table relationships.
-![image](https://github.com/user-attachments/assets/447058f5-ebb2-4492-ab67-6912155a7511)
+### 4. ETL Process using SSIS
+- Design and implement an **SSIS (SQL Server Integration Services)** project to:
+  - Extract data from the source `bank` transactional database.
+  - Transform and clean data as needed.
+  - Load data into the `bank_dwh` target warehouse.
+
+### 5. Analytical Cube with SSAS
+- Build an **SSAS (SQL Server Analysis Services)** project in **Multidimensional Mode**.
+- Deliverables include:
+  - Predefined **measures** and **KPIs**.
+  - Configured **dimension hierarchies**.
+  - Cube browsing and exploration functionalities.
+
+---
+
+## 📦 Deliverables
+
+- ✅ SQL scripts for schema creation and data integrity validation.  
+- ✅ SSIS package(s) for ETL processing.  
+- ✅ SSAS project for multidimensional cube modeling.  
+- ✅ Date Dimension generation script.  
+- ✅ 📷 *Screenshot of the star schema design* (included in the repository).
+
+---
+
+## 🖼️ DWH Design Screenshot
+
+> A screenshot of the data warehouse schema is included to illustrate the star schema structure and table relationships.
+![image](https://github.com/user-attachments/assets/756eae4e-6cf2-4662-bf54-4f6578162252)
