@@ -1,4 +1,4 @@
-Bank Data Warehouse (bank_dwh)
+#Bank Data Warehouse (bank_dwh)
 This project models and develops a data warehouse for a banking system using a Star Schema approach. It integrates transactional data from the source bank database into a structured analytical model (bank_dwh) to support business intelligence and reporting.
 
 Project Objectives
