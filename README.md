@@ -1,13 +1,13 @@
 # 📊 Bank Data Warehouse (`bank_dwh`)
 
-This project models and develops a data warehouse for a banking system using a **Star Schema**. It integrates transactional data from the source `bank` database into a structured analytical model (`bank_dwh`) to support data analysis and business intelligence.
+This project models and develops a data warehouse for a banking system using a **Snowflake Schema**. It integrates transactional data from the source `bank` database into a structured analytical model (`bank_dwh`) to support data analysis and business intelligence.
 
 ---
 
 ## 🎯 Project Objectives
 
 ### 1. Dimensional Modeling
-- Design a **star schema** for the `bank_dwh` data warehouse.
+- Design a **Snowflake schema** for the `bank_dwh` data warehouse.
 - Include a central **fact table** and supporting **dimension tables** for key banking metrics.
 
 ### 2. Data Integrity Enforcement
@@ -37,11 +37,10 @@ This project models and develops a data warehouse for a banking system using a *
 - ✅ SSIS package(s) for ETL processing.  
 - ✅ SSAS project for multidimensional cube modeling.  
 - ✅ Date Dimension generation script.  
-- ✅ 📷 *Screenshot of the star schema design* (included in the repository).
 
 ---
 
 ## 🖼️ DWH Design Screenshot
 
-> A screenshot of the data warehouse schema is included to illustrate the star schema structure and table relationships.
+> A screenshot of the data warehouse schema is included to illustrate the Snowflake schema structure and table relationships.
 ![image](https://github.com/user-attachments/assets/756eae4e-6cf2-4662-bf54-4f6578162252)
