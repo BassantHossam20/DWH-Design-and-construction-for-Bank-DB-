@@ -1,13 +1,13 @@
 # 📊 Bank Data Warehouse (`bank_dwh`)
 
-This project models and develops a data warehouse for a banking system using a **Snowflake Schema**. It integrates transactional data from the source `bank` database into a structured analytical model (`bank_dwh`) to support data analysis and business intelligence.
+This project models and develops a data warehouse for a banking system using a **Galaxy Schema**. It integrates transactional data from the source `bank` database into a structured analytical model (`bank_dwh`) to support data analysis and business intelligence.
 
 ---
 
 ## 🎯 Project Objectives
 
 ### 1. Dimensional Modeling
-- Design a **Snowflake schema** for the `bank_dwh` data warehouse.
+- Design a **Galaxy schema** for the `bank_dwh` data warehouse.
 - Include a central **fact table** and supporting **dimension tables** for key banking metrics.
 
 ### 2. Data Integrity Enforcement
@@ -42,5 +42,5 @@ This project models and develops a data warehouse for a banking system using a *
 
 ## 🖼️ DWH Design Screenshot
 
-> A screenshot of the data warehouse schema is included to illustrate the Snowflake schema structure and table relationships.
+> A screenshot of the data warehouse schema is included to illustrate the Galaxy schema structure and table relationships.
 ![image](https://github.com/user-attachments/assets/756eae4e-6cf2-4662-bf54-4f6578162252)
